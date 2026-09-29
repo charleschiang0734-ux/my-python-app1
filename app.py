@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-  return "<h1>Hello, Render! 恭喜你成功跑通了第一个免费服务器！</h1>"
+  return "<h1>Hello, World! 这是我修改后的新页面！</h1>"
 
 
 if __name__ == "__main__":
